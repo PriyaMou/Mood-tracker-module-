@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindful | Your Mental Health Companion</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <span class="logo-icon">🧠</span>
+                <span>Mindful</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="container">
+        <section class="hero">
+            <h1>Your Personal Mental Health Companion</h1>
+            <p>Track your moods, understand your emotions, and get insights to improve your mental wellbeing.</p>
+        </section>
+        
+        <div class="chatbot-container">
+            <div class="chat-header">
+                <h2>How are you feeling today?</h2>
+            </div>
+            
+            <!-- Step 1: Emoji Selection -->
+            <div id="step1" class="step active">
+                <h2 class="question">How are you feeling right now?</h2>
+                <div class="emoji-grid">
+                    <div class="emoji-btn" data-mood="happy">
+                        <span class="emoji">😊</span>
+                        <span class="emoji-label">Happy</span>
+                    </div>
+                    <div class="emoji-btn" data-mood="sad">
+                        <span class="emoji">😞</span>
+                        <span class="emoji-label">Sad</span>
+                    </div>
+                    <div class="emoji-btn" data-mood="angry">
+                        <span class="emoji">😠</span>
+                        <span class="emoji-label">Angry</span>
+                    </div>
+                    <div class="emoji-btn" data-mood="excited">
+                        <span class="emoji">🤩</span>
+                        <span class="emoji-label">Excited</span>
+                    </div>
+                    <div class="emoji-btn" data-mood="neutral">
+                        <span class="emoji">😐</span>
+                        <span class="emoji-label">Neutral</span>
+                    </div>
+                    <div class="emoji-btn" data-mood="anxious">
+                        <span class="emoji">😰</span>
+                        <span class="emoji-label">Anxious</span>
+                    </div>
+                </div>
+                <button id="next1" class="btn">Continue</button>
+            </div>
+            
+            <!-- Step 2: Mood Description -->
+            <div id="step2" class="step">
+                <h2 class="question" id="mood-question">What's making you feel <span id="current-mood">happy</span>?</h2>
+                <textarea id="mood-description" placeholder="Describe what's on your mind (optional)"></textarea>
+                <button id="next2" class="btn">Continue</button>
+                <button id="back1" class="btn btn-secondary">Back</button>
+            </div>
+            
+            <!-- Step 3: Intensity Slider -->
+            <div id="step3" class="step">
+                <h2 class="question">How intense is this feeling?</h2>
+                <div class="slider-container">
+                    <input type="range" min="1" max="10" value="5" class="slider" id="intensity-slider">
+                    <div class="slider-labels">
+                        <span>Low (1)</span>
+                        <span>Moderate (5)</span>
+                        <span>High (10)</span>
+                    </div>
+                    <div class="slider-value">Intensity: <span id="intensity-value">5</span>/10</div>
+                </div>
+                <button id="next3" class="btn">Continue</button>
+                <button id="back2" class="btn btn-secondary">Back</button>
+            </div>
+            
+            <!-- Step 4: Additional Questions -->
+            <div id="step4" class="step">
+                <div class="question-container" id="question-container">
+                    <!-- Questions will be inserted here by JavaScript -->
+                </div>
+                <button id="next4" class="btn">Continue</button>
+                <button id="back3" class="btn btn-secondary">Back</button>
+            </div>
+            
+            <!-- Step 5: Mood Analysis -->
+            <div id="step5" class="step">
+                <h2 class="question">Your Mood Analysis</h2>
+                <div class="chart-container">
+                    <canvas id="moodChart"></canvas>
+                </div>
+                <div class="mood-history" id="mood-history">
+                    <div class="no-history">Your mood history will appear here</div>
+                </div>
+                <div class="history-actions">
+                    <button id="view-full-history" class="btn-tertiary">View Full History</button>
+                    <button id="restart" class="btn">Track Another Mood</button>
+                </div>
+            </div>
+            
+            <!-- Step 6: Full History View -->
+            <div id="step6" class="step">
+                <h2 class="question">Your Complete Mood History</h2>
+                <div class="mood-history full-history" id="full-history">
+                    <!-- Full history will be inserted here -->
+                </div>
+                <button id="back-to-analysis" class="btn">Back to Analysis</button>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>© 2023 Mindful. All rights reserved.</p>
+            <p>This is not a substitute for professional mental health care.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
