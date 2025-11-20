@@ -95,5 +95,15 @@ Handling mood history display
 Mindful was created to encourage self-awareness and make it easier to check in with your feelings regularly. Even small reflections each day can help you understand your patterns, triggers, and progress over time.
 
 <img width="1266" height="638" alt="mood_tracker1" src="https://github.com/user-attachments/assets/aa0516c4-07f0-455e-ae86-93a94c1ea13c" />
+<img width="1171" height="636" alt="mood_t2" src="https://github.com/user-attachments/assets/29de62be-1813-4fcf-bb7a-7ded0d2b5f49" />
+<img width="1167" height="621" alt="mood_t4" src="https://github.com/user-attachments/assets/8f99ec55-02f1-4394-bbd9-0e358c6c2bd4" />
+<img width="1160" height="634" alt="mood_t5" src="https://github.com/user-attachments/assets/0518ae7b-cf44-4e82-bd1d-b4778ea6f0bf" />
+<img width="1199" height="635" alt="mood_t6" src="https://github.com/user-attachments/assets/1f932a91-3546-49ef-b40d-8e96a60f22f7" />
+<img width="1195" height="634" alt="mood_t7" src="https://github.com/user-attachments/assets/1a40ff67-5bbc-4104-995d-ca3a6ae9f5cb" />
+<img width="1205" height="638" alt="mood_t8" src="https://github.com/user-attachments/assets/d6a0cea8-e1c4-483f-a1cd-2e3650ba4d10" />
+<img width="1194" height="632" alt="mood_t9" src="https://github.com/user-attachments/assets/16135e21-eecd-48e9-8b6b-c5520c6ac4fa" />
+<img width="1069" height="628" alt="mood_t11" src="https://github.com/user-attachments/assets/06644b63-7d60-4a09-bd54-5067f5e8ddb2" />
+
+
 
 WebKit-based browsers (Chrome, Edge, Safari) and may not work in Firefox.
