@@ -15,10 +15,15 @@ Mindful is not a substitute for professional mental health care. It is a persona
 **Choose how you’re feeling from 6 moods**:
 
 😊 Happy
+
 😔 Sad
+
 😡 Angry
+
 🤩 Excited
+
 😐 Neutral
+
 😰 Anxious
 
 **Reason for Your Mood**:
@@ -53,11 +58,17 @@ Soft purple theme, rounded cards, and a centered layout.
 🧠 **How It Works (Flow)**:
 
 **Select Mood** → choose from the 6 mood options.
+
 **Describe Your Mood** → type the reason or context behind how you feel.
+
 **Set Intensity** → move the slider (1–10) to match how strongly you feel it.
+
 **Answer 3 Questions** → choose options for energy, productivity, and social connection.
+
 **View Insights** → see:
+
 **Mood graph** over multiple check-ins.
+
 A **summary** and access to past **mood history**.
 
 🛠️ **Tech Stack**:
@@ -68,10 +79,15 @@ A **summary** and access to past **mood history**.
 
 **JavaScript (Vanilla JS)** –
 Handling mood selection
+
 Capturing user inputs
+
 Updating intensity value
+
 Managing question responses
+
 Generating mood summary and graph
+
 Handling mood history display
 
 💬 **A Note from the Developer**:
