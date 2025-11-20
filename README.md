@@ -94,5 +94,6 @@ Handling mood history display
 
 Mindful was created to encourage self-awareness and make it easier to check in with your feelings regularly. Even small reflections each day can help you understand your patterns, triggers, and progress over time.
 
+<img width="1266" height="638" alt="mood_tracker1" src="https://github.com/user-attachments/assets/aa0516c4-07f0-455e-ae86-93a94c1ea13c" />
 
 WebKit-based browsers (Chrome, Edge, Safari) and may not work in Firefox.
